@@ -1,0 +1,168 @@
+body{
+	margin: 0px;
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Rubik', sans-serif;
+}
+
+header a{
+	text-decoration: none;
+}
+
+button{
+	cursor: pointer;
+}
+
+.header{
+	padding: 0px 48px;
+	background-color: #E3562A;
+	display: flex;
+	height: 67px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.testyroom-title{
+	color: #fff;
+	font-size: 56px;
+	font-weight: 700;
+	line-height: 105%;
+}
+
+.tests-library{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 35px;
+}
+
+.selected{
+	text-decoration-line: underline;
+}
+
+.reg-login{
+	display: flex;
+	align-items: center;
+}
+
+.head-elem{
+	color: #fff;
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 32px;
+	letter-spacing: -0.5px;
+}
+
+.reg-login a{
+	color: #fff;
+}
+
+.registration{
+	margin-right: 35px;
+}
+
+.main{
+	margin-top: 47px;
+	display: flex;
+	justify-content: center;
+	gap: 25px;
+}
+
+.input-div{
+	padding: 16px;
+	width: 343px;
+	display: flex;
+	align-items: center;
+	border-radius: 12px;
+	border: 1px solid #BEBAB3;
+	background: #FFF;
+}
+
+#search-input{
+	border: 0px;
+	height: 21px;
+	width: 100%;
+}
+
+#search-input:focus{
+	outline: none;
+}
+
+#search-input::placeholder{
+	color: #78746D;
+	font-family: Rubik;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 21px;
+}
+
+.search-img{
+	margin-left: 4px;
+}
+
+.subject-choice-div{
+	border-radius: 7px;
+	border: 1px solid #BEBAB3;
+	width: 162px;
+	height: 54px;
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+}
+
+.subject-choice{
+	border: 0px;
+	background-color: #fff;
+	display: flex;
+	justify-content: space-between;
+}
+
+.choice-title{
+	color: #78746D;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+	letter-spacing: -0.5px;
+	margin-left: 10px;
+}
+
+.triangle-img{
+	display: flex;
+	align-items: center;
+}
+
+.sb-triangle{
+	position: relative;
+}
+
+.sb-triangle::after {
+	content: '';
+	position: absolute;
+	top: -3px;
+	left: 80px;
+	border: 9px solid transparent;
+	border-top: 9px solid #888;
+}
+
+.class-choice-div{
+	border-radius: 7px;
+	border: 1px solid #BEBAB3;
+	width: 107px;
+	height: 54px;
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+}
+
+.cl-triangle{
+	position: relative;
+}
+
+.cl-triangle::after {
+	content: '';
+	position: absolute;
+	top: -15px;
+	left: 80px;
+	border: 9px solid transparent;
+	border-top: 9px solid #888;
+}
+
